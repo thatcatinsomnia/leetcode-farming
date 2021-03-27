@@ -4,7 +4,6 @@
 // 先將 array 排序
 // 在從大的數字開始找
 // 和剩下的數字作比較
-
 var minSubsequence = function(nums) {
     const result = [];
     
@@ -23,9 +22,7 @@ var minSubsequence = function(nums) {
       if (current > sum - current) break;
     }
     
-    console.log(result);
     return result;
 };
 
-minSubsequence([4,3,10,9,8]); // [10, 9]
-minSubsequence([4,4,7,6,7]); // [7,7,6]
+module.exports = minSubsequence;

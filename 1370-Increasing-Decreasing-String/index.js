@@ -30,6 +30,8 @@ var sortString = function(s) {
       }
     }
   }
+  
   return result;
 };
-sortString('aaaabbbbcccc');
+
+module.exports = sortString;

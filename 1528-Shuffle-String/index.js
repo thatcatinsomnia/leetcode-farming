@@ -12,8 +12,7 @@ var restoreString = function(s, indices) {
         str += s[idx];
     }
 
-    console.log(str);
     return str;
 };
 
-restoreString('codeleet', [4, 5, 6, 7, 0, 2, 1, 3]);
+module.exports = restoreString;
